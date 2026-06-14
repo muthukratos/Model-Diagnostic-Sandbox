@@ -540,17 +540,7 @@ async def scan_dataset_endpoint(file: UploadFile = File(...)):
     Scan a dataset to auto-detect target column and task type without training.
     """
     try:
-        # Debug logging: print incoming request metadata for troubleshooting uploads
-        try:
-            # 'request' is not in the signature originally; attempt to get from context if available
-            pass
-        except Exception:
-            pass
-        # Log file info
-        try:
-            print(f"[scan] Received upload: filename={file.filename}, content_type={file.content_type}")
-        except Exception:
-            print("[scan] Received upload: could not read file metadata")
+        print(f"[scan] Received upload: filename={file.filename}, content_type={file.content_type}")
 
         df = parse_uploaded_file(file)
         

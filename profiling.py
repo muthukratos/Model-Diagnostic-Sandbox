@@ -63,16 +63,3 @@ def profile_data(dataset: pd.DataFrame, target_column: Optional[str] = None) -> 
     
     return profile
 
-
-def assess_data_quality(dataset):
-    """
-    Assess data quality metrics.
-    
-    Args:
-        dataset: Dataset object to assess
-        
-    Returns:
-        Dictionary containing quality metrics
-    """
-    # TODO: Implement data quality assessment logic
-    pass

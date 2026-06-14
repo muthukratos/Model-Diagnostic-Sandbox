@@ -274,19 +274,3 @@ def explain_model(
 
     return result
 
-
-# ── Legacy placeholder stubs (unused) ────────────────────────────────────────
-
-def explain_prediction(model, input_data):
-    """Legacy stub — not implemented."""
-    pass
-
-
-def explain_model_global(model, dataset):
-    """Legacy stub — not implemented."""
-    pass
-
-
-def get_feature_importance(model, dataset):
-    """Legacy stub — not implemented."""
-    pass

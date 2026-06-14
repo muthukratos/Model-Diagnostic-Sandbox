@@ -613,34 +613,3 @@ def train_and_evaluate_models(
         "test_samples": len(X_test_df)
     }
 
-
-
-def train_model(model_config, dataset, hyperparameters: dict = None):
-    """
-    Train a model with the given configuration and dataset.
-    
-    Args:
-        model_config: Model configuration object
-        dataset: Dataset object for training
-        hyperparameters: Optional dictionary of hyperparameters
-        
-    Returns:
-        Trained model object
-    """
-    # TODO: Implement model training logic
-    pass
-
-
-def evaluate_model(model, dataset):
-    """
-    Evaluate a trained model on a dataset.
-    
-    Args:
-        model: Trained model object
-        dataset: Dataset object for evaluation
-        
-    Returns:
-        Dictionary containing evaluation metrics
-    """
-    # TODO: Implement model evaluation logic
-    pass

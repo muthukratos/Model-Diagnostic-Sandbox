@@ -148,32 +148,3 @@ def filter_models(profile: Dict[str, Any], task_type: str = "classification") ->
     
     return selected_models
 
-
-def select_model(dataset, task_type: str = "classification"):
-    """
-    Select appropriate model for the given task.
-    
-    Args:
-        dataset: Dataset object
-        task_type: Type of ML task (e.g., "classification", "regression")
-        
-    Returns:
-        Selected model configuration
-    """
-    # TODO: Implement model selection logic
-    pass
-
-
-def compare_models(dataset, models: list):
-    """
-    Compare multiple models on the dataset.
-    
-    Args:
-        dataset: Dataset object
-        models: List of model configurations to compare
-        
-    Returns:
-        Comparison results dictionary
-    """
-    # TODO: Implement model comparison logic
-    pass
